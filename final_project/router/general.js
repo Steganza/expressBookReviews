@@ -37,7 +37,11 @@ public_users.get('/isbn/:isbn',function (req, res) {
   
 // Get book details based on author
 public_users.get('/author/:author',function (req, res) {
+    const authornew = req.params.author;
+    let books[author];
     
+    res.send("message");
+    }
 });
 
 // Get all books based on title
